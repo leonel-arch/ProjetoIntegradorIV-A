@@ -1,0 +1,154 @@
+
+/*Configurações imagem Titulo*/
+#imgtitulo
+{
+    float: left;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 10px 0;
+}
+
+/*Configurações bloco Titulo*/
+#titulo ul
+{
+    padding: 0px; /*Elimina padding*/
+    margin: 0px; /*Elimina Margin*/
+    background-color: black; /*Define cor de fundo bloco titulo*/
+    height: 170px; /*Define altura bloco titulo*/
+}
+
+/*Configurações texto Titulo*/
+#titulo ul a
+{  
+    display: inline-block; /* Espaçamento vertical*/
+    font-style: oblique; /*Estilo fonte titulo*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    cursor: default;
+    color: red;
+    margin-top: 60px;
+}
+
+/*Configurações bloco busca*/
+#divBusca
+{
+    background-color: black;
+    border: solid 2px black;
+    height: 35px;
+    margin-top: 40px;
+}
+
+/*Configurações texto busca*/
+#txtBusca
+{
+    float: left;
+    background-color: white;
+    font-size: 14px;
+    height: 22px;
+    width: 200px;
+    margin-left: 900px;
+    border: solid 2px darkred;
+}
+
+/*Configurações botão busca*/
+#btnBusca
+{
+    
+    float: left;
+    height: 22px;
+    width: 70px;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 0 7px 7px 0;
+    border: solid 2px darkred;
+}
+
+#menu ul /*Configurações bloco menu*/
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+
+#menu ul li /*Configurações posição do menu*/
+{
+    display: inline;
+}
+
+#menu ul li a /*Configurações texto menu*/
+{
+    padding: 10px 55px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    border-bottom: 5px solid gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+#menu ul li a:hover /*Configurações animação menu*/
+{
+    background-color: white;
+    color: blue;
+    border-bottom: 5px solid red;
+}
+
+.imgSlide /*Configurações imagem slideshow*/
+{
+    display:none;
+}
+
+.slideshow-container /*Configurações bloco slideshow*/
+{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.text /*Configurações texto slideshow*/
+{
+    color: red; /*cor do texto*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*fonte*/
+    font-size: 40px; /*tamanho de fonte*/
+    font-style: unset; /*estilo de fonte*/
+    padding: 8px 12px; /*Configurações do padding*/
+    position: absolute; /*posição do bloco*/
+    bottom: 8px;
+    width: 100%; /*largura do bloco texto*/
+    text-align: center;/*alinhamento do texto*/
+}
+
+.numbertext /*Configurações numero slideshow*/
+{
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/*Configurações aminação do slideshow*/
+.fade
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade
+{
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade
+{
+    from {opacity: .4}
+    to {opacity: 1}
+}
